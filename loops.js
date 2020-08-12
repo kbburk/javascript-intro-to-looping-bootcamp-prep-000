@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 
 const arr = [];
 
@@ -58,3 +59,34 @@ checked.
 */
 
 
+=======
+/*const spies = require('chai-spies')
+
+chai.use(spies)
+
+const expect = chai.expect
+
+
+
+const arr = [];
+//  const t = 10
+
+
+function forLoop(arr) {
+    for (let i = 0; i < 25; i++) {
+    if(i === 1){
+      newArr.push(`I am 1 strange loop.`);
+    }
+    else{
+      newArr.push(`I am ${i} strange loops.`);
+    }
+    
+  }
+  return console.log(newArr[i]);
+}
+
+forLoop(arr);
+
+
+
+>>>>>>> c5ed9b737f9682e6d1e48c90407ba318fc5bfa33
